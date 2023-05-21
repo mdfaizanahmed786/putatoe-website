@@ -10,8 +10,9 @@ const ServiceProviders = (): JSX.Element => {
       <div className="font-bold md:mt-5 mt-2 text-sm md:text-2xl text-center text-gray-500">
         Construction
       </div>
-      <div className="bg-gray-500 h-[1px] w-1/2 text-center mx-auto" />
-      <div className="overflow-x-auto min-w-7xl flex gap-2">
+      <div className="bg-gray-500 h-[1px]  text-center mx-auto" />
+     
+      <div className="flex overflow-x-auto space-x-8">
         {serviceProviders.map((serviceProvider) => (
           <ServiceProvider
             key={serviceProvider.id}
@@ -19,6 +20,8 @@ const ServiceProviders = (): JSX.Element => {
           />
         ))}
       </div>
+
+
     </div>
   );
 };
