@@ -1,23 +1,22 @@
-import Header from "./components/Header"
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
 
-function App() {
- 
-
+const App = () => {
   return (
-    <div className="flex flex-col">
-    
-      {/* Header */}
-      <div className="bg-primary w-full p-3 shadow-md static top-0 z-40">
-      <Header/>
-
+    <div className="flex flex-col bg-gray-100 gap-2 min-h-screen">
+      <div className="bg-primary w-full p-3 shadow-md sticky top-0 z-40">
+        <Header />
       </div>
-      {/* HeroSection */}
+
+      <div className="md:max-w-7xl mx-auto">
+        <HeroSection />
+      </div>
+
       {/* ServiceProviders */}
       {/* Services */}
       {/* Footer */}
-     
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
