@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import ServiceProviders from "./components/ServiceProviders";
 
 const App = () => {
   return (
@@ -7,9 +8,9 @@ const App = () => {
       <div className="bg-primary w-full p-3 shadow-md sticky top-0 z-40">
         <Header />
       </div>
-
-      <div className="md:max-w-7xl mx-auto">
+      <div className="md:max-w-7xl mx-auto space-y-5">
         <HeroSection />
+        <ServiceProviders />
       </div>
 
       {/* ServiceProviders */}
