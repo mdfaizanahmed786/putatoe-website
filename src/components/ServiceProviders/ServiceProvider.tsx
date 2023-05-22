@@ -9,7 +9,7 @@ const ServiceProvider = ({
       <img alt="crypto" src="https://source.unsplash.com/random/?company" className=" object-cover  h-36 w-36 px-2 py-2 "/> 
 
         </div>
-      <div className=" whitespace-pre-wrap px-2 text-sm text-center   text-black">
+      <div className=" whitespace-pre-wrap py-2 text-sm text-center   text-black">
         {serviceProviderName}
       </div>
 
