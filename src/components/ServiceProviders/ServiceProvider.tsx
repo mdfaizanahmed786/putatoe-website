@@ -4,14 +4,16 @@ const ServiceProvider = ({
   serviceProviderName: string;
 }): JSX.Element => {
   return (
-    <div className="space-y-2 flex flex-col items-center bg-white rounded-md shadow-md flex-shrink-0">
+    <div className="space-y-2 flex flex-col items-center bg-white shadow-md w-44 rounded-lg">
         <div>
-      <img alt="crypto" src="https://source.unsplash.com/random/?company" className="h-32 object-cover w-32"/>
+      <img alt="crypto" src="https://source.unsplash.com/random/?company" className=" object-cover  h-36 w-36 px-2 py-2 "/> 
 
         </div>
-      <div className="text-center w-1/2  text-sm  text-black">
+      <div className=" whitespace-pre-wrap px-2 text-sm text-center   text-black">
         {serviceProviderName}
       </div>
+
+      
     </div>
   );
 };
