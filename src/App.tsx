@@ -17,6 +17,13 @@ const App = () => {
       </div>
 
       <Footer />
+      <div className="fixed bottom-24 right-7 bg-primary rounded-full  flex items-center justify-center shadow-md grow-0 shrink-0 md:p-2 p-2">
+        <img
+          src="/images/putatoe.png"
+          alt="logo"
+          className="md:h-14  md:w-14 h-12 w-12 object-cover "
+        />
+      </div>
     </div>
   );
 };
