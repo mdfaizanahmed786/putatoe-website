@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ServiceProviders from "./components/ServiceProviders";
@@ -15,7 +16,7 @@ const App = () => {
         <Services />
       </div>
 
-      {/* Footer */}
+      <Footer />
     </div>
   );
 };
