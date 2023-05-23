@@ -20,8 +20,8 @@ const Header = (): JSX.Element => {
             United States, San Francisco, California Mountain View, 94043
           </div>
           <div className="relative">
-            <div className="absolute flex rounded-full right-0 bottom-2 w-6 h-6  bg-red-500 text-white grow-0 shrink-0 justify-center items-center">
-              0
+            <div className="absolute flex rounded-full -right-1  bottom-3 w-5 h-5  bg-red-500 text-white grow-0 shrink-0 justify-center items-center">
+              1
             </div>
             <IoIosNotifications className="header-icon" />
           </div>
